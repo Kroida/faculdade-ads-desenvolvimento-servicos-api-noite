@@ -8,5 +8,7 @@ create table Game (
     categoria varchar(100),
     idade int,
     valor decimal(10, 2),
-    disponibilidade boolean default false
+    disponibilidade boolean default false,
+    
+    primary key (pk_game_id)
 );
